@@ -21,12 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": {
-    "/api": {
-      "target": "http://10.1.29.62:3003",
-      "changeOrigin": true
-    }
-  },
+  "proxy": "http://10.1.29.62:3003",
   "eslintConfig": {
     "extends": "react-app"
   },
